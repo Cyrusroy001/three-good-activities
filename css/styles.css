@@ -155,6 +155,7 @@ p {
 }
 
 .iframe-container {
+  border: white solid;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -164,6 +165,7 @@ p {
 }
 
 .responsive-iframe {
+  border: white solid;
   position: absolute;
   top: 0;
   left: 0;
@@ -226,7 +228,7 @@ p {
   }
 
   .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     font-family: "Ubuntu", sans-serif;
   }
