@@ -19,6 +19,27 @@ p {
   color: #8f8f8f;
 }
 
+a, a:link, a:visited, a:active{
+  color: #8f8f8f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+a.download-footer-button,
+a.download-footer-button:link,
+a.download-footer-button:visited,
+a.download-footer-button:active {
+  color: white;
+  text-decoration: none;
+}
+
+a.download-footer-button:hover {
+  color: black;
+}
+
 /* HEADINGS SECTION */
 
 .big-heading {
@@ -91,13 +112,13 @@ p {
   margin-bottom: 10%;
 }
 
-.iphone {
+.phone {
   margin: 0 30%;
   transform: rotate(13deg);
-  height: 400px;
+  height: 500px;
 }
 
-.iphone-column {
+.phone-column {
   margin-bottom: 7%;
 }
 
@@ -141,6 +162,13 @@ p {
 .testimonial-text {
   font-size: 2.5rem;
   line-height: 1.5;
+}
+
+/* ABOUT SECTION */
+
+.about {
+  font-size: large;
+  margin-top: 40px;
 }
 
 /* PURPOSE SECTION */
@@ -198,29 +226,26 @@ p {
 
 /* FOOTER SECTION */
 
-.footer-icon {
-  margin: 3% 1.5%;
-  font-size: 1rem;
-  color: black;
-}
-
-.footer-icon:hover {
-  color: white;
-}
-
 .footer-text {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
-  color: black;
+  color: white;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
 /* MEDIA QUERY */
 
 /* True for tablet size and mobile size*/
 @media (max-width: 1028px) {
-  .iphone {
+  .phone {
     transform: rotate(0);
     margin: 0;
+    height: 400px;
   }
 
   #title {
